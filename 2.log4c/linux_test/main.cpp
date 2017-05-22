@@ -11,12 +11,12 @@ int main(int argc, char *argv[])
         printf("log open error!\n");
     }
 
+    LOG_INFO("LOG_INFO  Test");
+    LOG_DEBUG("LOG_DEBUG Test");
     LOG_ERROR("LOG_ERROR Test");
 
     //定位出错位置
-    if (100/0 == 0) {
-        LOG_TRACE("LOG_TRACE Error!");
-    }
+    LOG_TRACE("LOG_TRACE Test");
 
     log_close();
     

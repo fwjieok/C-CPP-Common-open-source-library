@@ -8,7 +8,7 @@
 extern "C" {
 #endif
 
-#include "log4c/log4c.h"
+#include "log4c.h"
 
 #ifdef __cplusplus
 }
