@@ -7,12 +7,12 @@ cJSON库简介:<br/> &nbsp;  &nbsp; &nbsp; &nbsp;An ultra-lightweight, portable,
 
 目录结构说明:
 
-> cJSON:   &nbsp; &nbsp; &nbsp; cJSON Library Source Code 
-> include: &nbsp; &nbsp; &nbsp; headers 
-> lib:  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; static lib and shared lib 
-> linux_test:  &nbsp; my test in ubuntu linux
+> cJSON:   &nbsp; &nbsp; &nbsp; cJSON Library Source Code <br/>
+> include: &nbsp; &nbsp; &nbsp; headers  <br/>
+> lib:  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; static lib and shared lib  <br/>
+> linux_test:  &nbsp; my test in ubuntu linux <br/>
 
 
- 在test目录执行测试需,设置../lib目录为环境变量
+ 在test目录执行测试需,设置../lib目录为环境变量 <br/>
  `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:../lib`
  
